@@ -1,6 +1,5 @@
-let el= document.querySelector('#header')
+const message = 'Como eu me vejo?'
 
-let msg: String = 'oi professo'
-el.innerHTML = msg
+document.querySelector('#header').innerHTML = message
 
-console.log('eu sou o resultado,mas como me vejo?')
+console.log(message)
